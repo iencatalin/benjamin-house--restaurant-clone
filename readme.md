@@ -14,4 +14,4 @@ Here you can see what http://www.benjaminsteakhouse.ro/ looked like. Website des
 
 ## Link Example
 
-Link to [Weather - ItSchool](https://benjamin-clone.netlify.app/)
+Link to [Benjamin SteakHouse & Bar - Clone ](https://benjamin-clone.netlify.app/)
