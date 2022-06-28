@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rezervări</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/reservation.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="home">
+      <div class="container">
+        <h1 class="header-title">Rezervări</h1>
+        <h2 class="second-title">
+          <span><a href="index.html">Acasă</a></span>
+          /Rezervări
+        </h2>
+      </div>
+    </header>
+    <section id="contact" class="contact section-py">
+      <div class="contact-wrapper container">
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d827.0305513115838!2d24.14982624023898!3d45.795472721596134!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474c67910735224b%3A0xda940d7273b8c3cf!2sBenjamin%20Steakhouse%20%26%20Bar!5e0!3m2!1sen!2sro!4v1655036577553!5m2!1sen!2sro"
+            width="90%"
+            height="380px"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contact-info">
+          <div class="title">
+            <h2>Rezervă o Masă</h2>
+          </div>
+          <form id="form" class="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Numele dvs."
+              />
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Adresa de email"
+              />
+            </div>
+            <div class="form-group">
+              <input type="date" class="form-control" name="date" />
+              <input type="time" class="form-control" name="time" />
+            </div>
+
+            <textarea
+              rows="5"
+              class="form-control"
+              name="mesage"
+              placeholder="Mesajul dvs."
+            ></textarea>
+            <input
+              type="submit"
+              class="btn contact-btn"
+              value="Rezervă o Masă"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
