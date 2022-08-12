@@ -56,19 +56,3 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     });
   });
 });
-
-// reservation -------------
-
-const form = document.querySelector("#form");
-
-function storeFormData() {
-  const user = {
-    name: form.name.value,
-    email: form.email.value,
-    date: form.date.value,
-    time: form.time.value,
-    mesage: form.mesage.value,
-  };
-  console.log(user);
-}
-form.addEventListener("submit", storeFormData);
